@@ -11,8 +11,8 @@ app.use(bp.json())
 
 
 mongoose.connect(
-    "mongodb+srv://Jasveer:social%20123@cluster0.mvhrw.mongodb.net/social-app?retryWrites=true&w=majority",
-    {useNewUrlParser: true, useUnifiedTopology:true},
+    "mongodb+srv://Jasveer:Tanner23@cluster0.ilenn.mongodb.net/social-app2?retryWrites=true&w=majority",
+    {useNewUrlParser: true, useUnifiedTopology:true, useCreateIndex:true},
     () =>{
         console.log('connected to mongo DB')
     }
